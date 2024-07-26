@@ -17,7 +17,6 @@ int main() {
 	sonuc2= ceil(sayi);
 	printf ("Sonuc: %.f",sonuc2);
 
- / 3 
 	
 	
 	return 0;
