@@ -1,6 +1,6 @@
 ## C'de strlen() Fonksiyonu
 
-**strlen** fonksiyonu, C programlama dilinde bir karakter dizisinin uzunluğunu bulmak için kullanılan standart bir fonksiyondur.
+**strlen()** fonksiyonu, C programlama dilinde bir karakter dizisinin uzunluğunu bulmak için kullanılan standart bir fonksiyondur.
 
 ### Ne Yapar?
 * Giriş olarak bir karakter dizisi (string) alır.
