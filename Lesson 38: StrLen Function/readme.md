@@ -1,4 +1,4 @@
-## C'de strlen Fonksiyonu
+## C'de strlen() Fonksiyonu
 
 **strlen** fonksiyonu, C programlama dilinde bir karakter dizisinin uzunluğunu bulmak için kullanılan standart bir fonksiyondur.
 
