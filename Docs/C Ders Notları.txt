@@ -1,0 +1,200 @@
+Ders 1:
+
+
+ALGORİTMA: Doğru şeyi doğru zamanda doğru yerde kullanmaktır.
+
+Yazılımda başarıyı üç şey getirir: 1) Pratik 2) Zaman 3) İstikrar
+
+Dev C veya Visual Studia bir derleme programıdır.
+
+Bir dilin kendine özgü kurallar bütününe 'syntax' (söz dizim kuralları) denir. Yani o dilin kurallarıdır.
+
+Programlada açıklama çift slaş (//) ile olur. 
+Bu sebeple açıklama satırındaki ifadeler kod almaya dahil edilmez.
+Üzerinde aritmetik herhangi bir işlem yap yapılmayacak sadece bilgi verme amacıyla yazılmış olan komutların yazdırılma işlemleri çift tırnak içerisinde yapılır.
+C, C#, Java dillerinde programlama satırının bittiğini belirtmek için noktalı virgül konur.
+
+
+Ders 2:	
+
+
+Değişken: Programda kullanılan verileri bellekte tutmak için gereken komutlardır. 
+Mantar pano, Not kağıdı ve Mantar pano iğnesi vb. şeyleri düşünecek olursak Mantar pano bizim
+belleğimiz, not kağıdını verilerimiz olarak ve mantar pano iğnesi vb. şeyler ise bizim
+değişkenlerimiz olur.
+
+Değişkenlere örnek olarak: string, int, double, float, char, long, short...
+
+string: Harf dizinleri ve metinler için kullanılan değişken türüdür. Üzerinde aritmatik işlemler yapılmayan şeyler için kullanılır. (alfabetik veri)
+int: Tam sayılar için kullanılan değişken türüdür.
+double ve float: Ondalık sayı için kullanılan değişken türüdür.
+char: Tek karakterli değişkenler için kullanılır.
+long: En büyük tam sayı değerler için kullanılır.
+short: En küçük tam sayı değerler için kullanılır.
+
+
+C dilinde yazdırmak için özel bir komut olan ("%s",...) ifadesinde ki 's' scan'ın kısaltımıdır. Scan'ın 6. manası= ekranda görüntülemek (emin değilim)
+(Alfabetik verileri yazdırmak için)
+
+Açıklama satırlarını uzun yapmak için slaş-yıldız (/*) ile başlayıp yıldız-slaş ile bitiririz.
+
+
+Ders 3:
+
+Scanf: Kullanıcının veri girmesi gereken yerlerde (ör. isim, şifre vb.) kullanılmaya yarar.
+printf, yazdırma için; scanf, kullanıcıdan veri almak içindir.
+
+Ders 4:
+
+int değişkenler, program üzerinde aritmatik işlem yapmak için kullanılan değişkenlerdir. (Aritmatik işlemleri yalnızca tam sayı üzerinde gerçekleştirmektedir)
+
+Not: string de yazdırma işlemi için '%s' kullanırken burada ise "decimal" dan gelen '%d' kullanırız.
+(Aritmatik verileri yazdırmak için) 
+int 'default' değeri sıfırdır.
+
+Ders 5:
+
+Alfabetik veriler için çok tercih edilmeyip daha çok aritmatik veriler için kullanılan ve klavyeden veri girişi için 'scanf' komutunu ve yazdırmak için 
+'printf' kullanılırız. Bir de aritmatik işlemlerde adres belirlemek için operatörün başına "&" sembolünü koyuyoruz. (not: örneğin; string'de kullanmıyoruz)
+Örneğin;'scanf ("%...",&...)' şeklinde kullanılır.
+ 
+Ders 6:
+
+float değişkenlerde yazdırma işlemi için '%f' kullanılır.
+
+Ders 8:
+
+Karar yapıları, 'evet' ve 'hayır' şeklinde iki tane sonucu olan durumlardır.
+Tek eşittir '=' atama, çift eşittir '==' sorgulamadır (eşit mi).
+
+Ders 9:
+
+Mod alma --> %
+Ve --> &&
+Veya --> ||
+Eşit midir --> ==
+Eşit değil midir --> !=
+
+eğer 'sayı' mod 2==0 (Yani 2'ye tam bölünüyorsa manasındadır) ('sayi'nin 2 ye tam bölümünden kalan 0 oluyor mu, bunu hesaplıyor)
+
+Ders 10:
+
+Döngü: Tekrar gerektiren durumlarda kullanılan programlama yapılarıdır.
+
+for döngüsünün üç tane parametresi vardır: 1) Başlangıç, 2) Bitiş, 3) Artış Miktarı
+
+Artış miktarı için genelde döngümüzün değişkenini 'sayi' varsayarsak 'sayi++' veya 'sayi+=1' kullanılır ve aynı manadadır. Manası ise sayıyı bir arttır demektir. 
+
+Ders 11:
+
+Ardaşık sayıların toplamını bulma formülü: n*(n+1)/2 dir. Bunu 'sayac' adı verdiğimiz değişkenle bulabiliriz.
+
+Bir sayının faktöriyeli demek,o sayı 1 azaltarak kendinden önceki tüm pozitif sayılar ile çarpmaktır.
+
+Fobanicci Serisi, ilk iki elemanı 1 ile başlayan daha sonraki elemanları son iki elemanın toplamıyla oluşan bir seridir.
+
+Ders 14:
+
+While şartlı döngüdür. (ilgili şartı sağladığı sürece manasını taşıyor.)
+
+Kullanımı:
+
+while (şart)
+{
+işlemler
+}
+
+Ders 15:
+
+"Switch / Case" tıpki if-else'nin olduğu gibi bir karar yapısıdır. Fakat farkı vardır; if- else'de aralık belirleme olduğu halde, switch / case'de direk koşula bakıyor.
+switch anahtarımız, şarttan oluşacak durum da case olacak.
+
+Kullanımı: 
+
+switch (değişken)
+{
+case1= ...
+case2= ...
+}
+
+Ders 17:
+
+Diziler: Aynı türden verilerin kümelenmesi durumunda bu verilerin bir arada tutulmasını sağlayan verilerdir. Diziler tek ve çift boyutlu olmak üzere ikiye ayrılır.
+Tek boyutlu dizi: Örneğin Şehirler dizisi (Ankara, Muş vs.) veya sayılar dizisi (ör: tek basamaklı sayılar: 1 3 5 7 9) 
+veyahut alfabedeki sesli harfler dizisi (a,e,ı,i,o,ö,u,ü) bunların her biri ve benzerleri bu gruba girer.
+---------------------------------
+Sembol ve örneği:
+[]
+
+int sayi[];
+---------------------------------
+İndex= Dizilerdeki elaman sırası.
+Dizilerde 'İndex'in başlangıç değeri= 0 dır. *Çünkü programlama dillerinde sayma işlemleri 0'dan başlar.
+
+Ders 18:
+
+örnek:
+int [satır][sütün]
+
+Ders 39:
+
+StrCpy / StrnCpy: Bir char içerisindeki katarı (char ile tanımladığımız metinsel ifadeyi kopyalayıp alt tarafta tekrardan kullanmak için onu hafızaya alan komut.
+
+strcpy: Direkt kaynağın tamamını kopyalıyor.
+StrnCpy: Kopyalanacak olan kaynak içerisinde kaç karakterlik kopyalama yapacağının parametresini ayırıyor.
+
+Ders 40:
+
+strcat: Gönderilen katarları veya verileri birleştirmek için kullanılan komut
+
+Ders 42:
+
+Struct: Aralarında mantıksal ilişki bulunan fakat farklı türden bilgilerdir {(değişkenleri birbirinden farklı yapılardır)}.
+
+Ders 44:
+
+Typedef: Örneğin tam sayı tipinde (int) 'tamsayi' isminde tanımlanan değişkenden sonra yeniden "int" bir değişken tanımlamak istemiyorsak ve bu 'tamsayi' isimli değişkenden yeni değişkenler türetmek istiyorsak typedef komutunu kullanırız.
+
+Ders 45:
+
+Pointerler/Göstericiler: Bellek ile program arasındaki bağlantı kurma işlemlerinde kullandığımız yapıdır.
+
+Ne İşe Yarar?
+
+Herhangi bir değişkenin kendisiyle veya adresiyle işlem yapmasını sağlar.
+
+Ders 49:
+
+Fonksiyon Oluşturmak Ne İşe Yarar?
+
+Kod yükünü azaltır. 
+
+Dersimizde 2 tür fonksiyon anlatılacak. 1) Geriye değer döndüren, 2) Geriye değer döndürmeyen fonksiyonlar
+
+Geriye değer döndürme/döndürmeme: Yazılan fonksiyon içerisinde bazı aritmatik işlemler yapıp o aritematik işlemler sonucunda bir değer elde ediliyorsa bu geriye değer döndüren fonksiyondur. Fakat sadece yazdırma işlemi yapılacaksa ve herhangi bir sonuç döndürülmeyecekse bu fonksiyon geriye değer döndürmeyen fonksiyon grubuna girer.
+Geriye değer döndürmeyen fonksiyon için kullanılacak anahtar kelime => "void" 
+
+Ders 54: (Dosya Kısaltma ve Kavramlar)
+
+IO 
+input --> Giriş
+output --> Çıkış
+File --> Dosya / f
+Put --> Yazdırma
+Get --> Okuma / Alma
+Open --> Açma
+Close --> Kapatma
+Write --> Yazma / w
+Read --> Okuma / r
+Add --> Ekleme / a
+EndOfFile --> Dosya Sonu
+Fgets --> Toplu Okuma
+Fputs --> Toplu Yazma
+ 
+
+Ders 57:
+
+fgets: Fgets fonksiyonu 3 farklı şekilde son bulur: 1- Belirtilen sayıda karakter okunduğu zaman. 2- Yeni satır karakteriyle karşılaştığı zaman. 3- Dosya sonu geldiği zaman
+
+Not: Normal while döngüsü, önce şarta bakar. Şayet şart sağlanıyorsa içerideki komutları çalıştırır.
+     Do - While döngüsünde ise önce döngüdeki komutlar çalışır ondan sonra şarta bakar, sağlanıyor mu sağlanmıyor mu diye...
