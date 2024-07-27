@@ -1,5 +1,9 @@
 # C_Lessons
 
+![C-Programming-Language](https://github.com/user-attachments/assets/eded929f-8587-4f36-8139-0e90a1ad2fa5)
+
+<br>
+
 ### C Dili Nedir ve Ne İşe Yarar?
 
 **C dili**, 1972 yılında Dennis Ritchie tarafından geliştirilen, genel amaçlı, yüksek performanslı ve taşınabilir bir programlama dilidir. C dili, sistem programlaması, gömülü sistemler, oyun geliştirme, derleyici tasarımı ve birçok diğer alanda yaygın olarak kullanılır.
